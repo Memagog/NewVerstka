@@ -1,0 +1,364 @@
+
+
+body{
+  
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul , li {
+    display: block;
+    padding: 0;
+    margin: 0;
+
+}
+ .menu-bar {
+     background: white;
+     padding: 20px 0;
+     color: #212121;
+    padding-right: 100px;
+ }
+ .menu_item {
+     margin-left: 37px;
+ }
+.menu_item a {
+
+    
+     font-size: 20px;
+     color: #000000;
+ }
+ .menu_item a:hover {
+     text-decoration: none;
+     color: #999999;
+ }
+ /* Шапка*/
+.header  {
+    color:white;
+    text-align: center;
+    padding: 180px 0;
+    background-size: cover;
+    background-position: 0 100%;
+    background-image: url(img/header.png);
+}
+.header__title{
+    font-size: 55px;
+}
+.header__text {
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+.button {
+    cursor: pointer;
+    padding: 10px 25px;
+   
+    margin: 80px 10px;
+    color:white;
+    transition: 0.3s;
+    background: #00897b;
+    border: 2px solid #00897b;
+   
+}    
+
+.button:hover{
+    background: transparent;
+    border: 2px solid whote;
+
+}
+/*о нас*/
+.about {
+    color: black;
+    background: white;
+    text-align: center;
+    padding-bottom: 125px;
+    padding-top: 120px;
+
+}
+.about img {
+    width : 60px;
+    height: 55px;
+}
+.about_title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.about_text {
+    font-size: 15px;
+   text-align: center;
+
+}
+.col-xl-8 {
+    padding-bottom: 60px;
+}
+/**/
+.services {
+    color: black;
+    width: 100%;
+    background: #e4fdf9;
+    text-align: center;
+    padding-bottom: 125px;
+    padding-top: 105px;
+    
+    
+}
+.services .col-xl-4 {
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+.our_card {
+    background: white;
+    padding: 50px 20px 40px 20px;
+    transition: 0.3s;
+    
+    
+}
+.our_card:hover .button-serv{
+    border: 2px solid white;
+}
+.our_card:hover  {
+    background: #00897b;
+    color: white;
+    box-shadow: 0px 16px 21px 0px rgba(0,0,0,0.54);
+    
+}
+.icon {
+    transition: 0.3s;
+    font-size: 60px;
+    color:black;
+}
+.our_card:hover .icon{
+    color:white; 
+}
+
+.button-serv {
+    text-transform: uppercase;
+    border: 2px solid black;
+    background: transparent;
+    padding: 10px 11px 10px 11px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.portfolio {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 135px;
+}
+.portfolio button:hover,
+.focused {
+    color:black;
+    border:2px solid #00897b;
+    background: transparent;
+
+}
+.portfolio img {
+    margin-bottom: 30px;
+}
+.portfolio .filter {
+    padding: 120px 0;
+    
+}
+div[filter]:hover img {
+    filter: brightness(50%);
+    transition: 0.3s;
+}
+.text {
+    display: none;
+}
+div[filter]:hover .text {
+    display: block;
+    width: 100%;
+    color:#ffffff;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    z-index: 99;
+    text-align: center;
+}
+/*Цены*/
+
+.pricing {
+    padding-top: 165px;
+    padding-bottom: 125px;
+    color: #000;
+    background: #f0f1f1;
+    text-align: center;
+}
+
+.price {
+background: #ffffff;
+transition: 0.3s;
+}
+.price:hover {
+    box-shadow: 0px 5px 29px -3px rgba(0,0,0,0.75);
+   
+}
+.price_head {
+    color:white;
+background-image: url(img/Sloi3.png);
+padding-top: 120px;
+padding-bottom: 145px;
+background-size: cover;
+background-repeat: no-repeat;
+max-height: 211px;
+
+}
+.price_head{
+    font-size: 50px;
+}
+.price_head p{
+    margin-top:-60px;
+
+    font-size: 25px;
+    
+}
+.price_head sub{
+    font-size: 17px;
+    vertical-align: middle;
+
+}
+.price_head sub{
+    font-size: 25px;
+    vertical-align: middle;
+}
+.price_body{
+    font-size: 17px;
+    color:#212121;
+    
+}
+
+.price_body li{
+    max-width: 175px;
+    margin: 0 auto ;
+    border-bottom: 1px solid #bfbfbf;  
+    padding-top:28px;
+    padding-bottom: 12px;
+}
+.price_foot {
+ padding: 60px 0;
+ 
+}
+.price_foot button {
+    border: 2px solid #212121;
+ 
+    color:#212121;
+    background: transparent;
+    padding:1px 2px;
+    font-size: 20px;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+}
+.price_foot button:hover{
+ text-transform: uppercase;
+ color:white;
+ background: #00897b;
+ border: none;
+ transition: 0.3s;
+ 
+}
+/*Команда*/
+.team {
+    padding-top: 165px;
+    padding-bottom: 125px;
+    color: #000;
+    background: white;
+    text-align: center;
+}
+.team h4 {
+    font-size: 20px;
+    margin-top: 30px;
+   
+    font-family: 'Open Sans Semibold'
+}
+.team p{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.icon{
+    
+    display: flex;
+    justify-content: center;
+   
+}
+.icon a i {
+    transition: 0.3s;
+}
+.icon span{
+    font-size: 20px;
+}
+.icon i:nth-child(1){
+    color: #f0f1f1;
+}
+.icon i:nth-child(2){
+    color: #00897b;
+}
+.icon a:hover i:nth-child(1){
+    color: #3949ab;
+}
+.icon a:hover i:nth-child(2){
+    color: #ffffff;
+}
+.team img {
+        margin:0 auto;
+        max-width: 344px;
+}
+
+.multiple-items{
+    margin-top: 125px;
+   
+}
+.dots-style{
+    margin-top: 115px;
+    display: flex;
+    justify-content: center;
+}
+.dots-style button {
+background: #00897b;
+border: none;
+border-radius: 50%;
+font-size: 0;
+height: 15px;
+width: 15px;
+margin: 5px;
+}
+.dots-style li[class="slick-active"] button {
+    background: #3949ab;
+}
+.Left > div:first-child{
+    order:1;
+}
+.Left > div:first-child{
+    order:2;
+}
+.right > div:first-child{
+    order:2;
+}
+.right > div:first-child{
+    order:1;
+}
+.blog {
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.blog a {
+font-size: 25px;
+color:#00897b;
+font-family: 'Open Sans Semibold';
+}
+.blog div {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.blog span{
+    font-size: 17px;
+    font-family: 'Open Sans Semibold';
+    margin-right: 35px;
+}
+
+.blog i {
+    margin-right: 15px;
+}
+.blog p {
+    font-size: 15px;
+}
